@@ -27,7 +27,7 @@
 
 </p>
 
-![image](https://github.com/emimuniz/AllProjects/blob/master/Pepitto/pepitto/aplicacao.png)
+![image](https://github.com/emimuniz/Pepitto/blob/master/pepitto/aplicacao.png)
 
 ## :rocket: Tecnologias utilizadas
 
