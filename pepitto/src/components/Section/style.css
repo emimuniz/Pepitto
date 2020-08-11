@@ -1,0 +1,143 @@
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.titulo{
+    background: url('../../assets/cachorros.jpg') center no-repeat;
+
+}
+section .cabecalho{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    line-height: .2;  
+}
+
+section .sub-titulo{
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 17px;
+    color: gray;
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+section button{
+    background: green;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+.planos h2 {
+    color: #fff;
+}
+
+.plano {
+    background: goldenrod;
+    width: 18em;
+    display: inline-block;
+    margin: 1em 0 0 1.1em;
+    padding-bottom: 2em;
+}
+
+
+.container {
+    width: 940px;
+    margin: 0 auto;;
+}
+
+.planos {
+  padding: 3em 0 6em 0;
+}
+
+.plano:hover {
+    background: #f9f9f9;
+}
+
+.plano h3 {
+    color: #fff;
+    font-size: 1.8em;
+    background: green;
+    text-align: center;
+    height: 2em;
+    padding-top: .6em;
+    margin-top: 0;
+}
+
+.plano div {
+    text-align: center;
+    color: green;
+    font-size: 2.75em;
+}
+
+.itens-plano {
+    padding-left: 1.2em;
+}
+
+.itens-plano li {
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em;
+}
+
+.itens-plano li:last-child {
+    border: 0;
+}
+
+.itens-plano span {
+    float: right;
+}
+
+
+.plano button {
+    background: green;
+    border: 0;
+    color: #fff;
+    width: 210px;
+    height: 38px;
+    font-size: 1.2em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+  }
+
+.icone-check, .icone-x {
+    background: url(../../assets/sprite.png) no-repeat;
+    width: 18px;
+    height: 18px;
+  } 
+  
+  .icone-check {
+    background-position: -5px -5px;
+  }
+  
+  .icone-x {
+    background-position: -33px -5px;
+  }
+  
+
+footer {
+    display: block;
+    position: relative;
+    color: white;
+    background: green;
+}
+  
+  footer .container {
+    padding-top: 1em;
+    height: 3.0em;
+    position: relative;
+    text-align: center;
+  }
